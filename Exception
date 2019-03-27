@@ -19,9 +19,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-
-
-assets:
-  - assets/images/bg.jpeg
+    assets:
+      - assets/images/bg.jpeg
   (2)terminal  run "$ flutter clean"
