@@ -19,6 +19,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    assets:
+    
+flutter:
+  uses-material-design: true
+  assets://注意此处，assets是放在flutter里面的
       - assets/images/bg.jpeg
-  (2)terminal  run "$ flutter clean"
+ 2、
