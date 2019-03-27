@@ -1,0 +1,27 @@
+ 1、不能加载图片
+ 
+ Unable to load asset: assets/images/bg.jpeg
+ 
+ （1）Please add pubspec.yaml and the output of flutter doctor
+ -----pubspec.yaml------
+
+name: flutterfirst
+description: A new Flutter application.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+.
+  cupertino_icons: ^0.1.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+assets:
+  - assets/images/bg.jpeg
+  (2)terminal  run "$ flutter clean"
